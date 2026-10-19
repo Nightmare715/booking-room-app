@@ -1,0 +1,29 @@
+# Dependencies and Expo build output
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Firebase local state and debug logs
+.firebase/
+
+# Logs
+*.log
+
+# Environment variables and local credentials
+.env
+.env.*
+!.env.example
+service-account*.json
+*serviceAccount*.json
+google-services.json
+GoogleService-Info.plist
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Temporary files
+*.tmp
