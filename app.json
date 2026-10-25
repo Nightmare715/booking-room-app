@@ -18,7 +18,8 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dungle27.studyroombooking"
     },
     "web": {
       "bundler": "metro"
@@ -29,11 +30,11 @@
       }
     },
     "owner": "dungle27",
-    "runtimeVersion": "1.0.0",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
     "updates": {
-      "url": "https://u.expo.dev/98a21fa8-940a-4aaf-9f02-3fd06bf60d0a",
-      "checkAutomatically": "ON_LOAD",
-      "fallbackToCacheTimeout": 0
+      "url": "https://u.expo.dev/98a21fa8-940a-4aaf-9f02-3fd06bf60d0a"
     }
   }
 }
